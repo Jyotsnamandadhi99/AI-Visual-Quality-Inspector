@@ -36,9 +36,57 @@ AI-Visual-Quality-Inspector/
 │── README.md
 ```
 
+## Project Workflow
+
+```
+Input Image
+      │
+      ▼
+OpenCV Preprocessing
+      │
+      ▼
+Object Detection (YOLO)
+      │
+      ▼
+Image Segmentation
+      │
+      ▼
+Defect Analysis
+      │
+      ▼
+Hugging Face Vision-Language Model
+      │
+      ▼
+Quality Report Generation
+      │
+      ▼
+Streamlit Web Application
+```
+
+## Current Features
+
+- Read images using OpenCV
+- Resize images to a standard resolution
+- Convert images to Grayscale and RGB
+- Apply Gaussian Blur for noise reduction
+- Perform Canny Edge Detection
+- Save processed images automatically
+
 ## Project Status
 
-🚧 In Progress (Day 1/37)
+🚧 In Progress (Day 2/37)
+
+### Completed
+- ✅ Project setup
+- ✅ Virtual environment configuration
+- ✅ OpenCV installation
+- ✅ Image loading and validation
+- ✅ Image resizing
+- ✅ Grayscale conversion
+- ✅ RGB color space conversion
+- ✅ Gaussian Blur
+- ✅ Canny Edge Detection
+- ✅ Processed image export
 
 ## Author
 
