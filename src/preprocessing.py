@@ -1,3 +1,16 @@
+"""
+Preprocessing Module
+
+Performs:
+- Resize
+- Grayscale
+- RGB
+- Blur
+- Edges
+
+Author: Jyotsna Mandadhi
+"""
+
 import cv2
 import os
 
@@ -17,6 +30,7 @@ folders = [
 
 for folder in folders:
     os.makedirs(folder, exist_ok=True)
+
 resized = cv2.resize(image, (640,640))
 gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
 rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)

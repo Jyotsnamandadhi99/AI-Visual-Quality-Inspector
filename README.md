@@ -63,30 +63,29 @@ Quality Report Generation
 Streamlit Web Application
 ```
 
-## Current Features
+## Features
 
-- Read images using OpenCV
-- Resize images to a standard resolution
-- Convert images to Grayscale and RGB
-- Apply Gaussian Blur for noise reduction
-- Perform Canny Edge Detection
-- Save processed images automatically
+- Image preprocessing (resize, grayscale, RGB conversion, Gaussian blur, edge detection)
+- Image transformations (rotation, flipping, translation, scaling, cropping)
+- Region of Interest (ROI) extraction and visualization
+- Automatic output generation and organized project structure
+- Modular OpenCV-based image processing pipeline
 
 ## Project Status
 
-🚧 In Progress (Day 2/37)
+🚧 In Progress (Day 3/21)
 
-### Completed
-- ✅ Project setup
-- ✅ Virtual environment configuration
-- ✅ OpenCV installation
-- ✅ Image loading and validation
-- ✅ Image resizing
-- ✅ Grayscale conversion
-- ✅ RGB color space conversion
-- ✅ Gaussian Blur
-- ✅ Canny Edge Detection
-- ✅ Processed image export
+**Completed**
+- OpenCV Fundamentals
+- Image Preprocessing
+- Image Transformations
+
+**Coming Next**
+- Video Processing
+- YOLOv8 Object Detection
+- Hugging Face Vision Models
+- AI Quality Inspection Pipeline
+- Streamlit Web Application
 
 ## Author
 
