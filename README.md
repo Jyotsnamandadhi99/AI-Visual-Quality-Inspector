@@ -68,20 +68,23 @@ Streamlit Web Application
 - Image preprocessing (resize, grayscale, RGB conversion, Gaussian blur, edge detection)
 - Image transformations (rotation, flipping, translation, scaling, cropping)
 - Region of Interest (ROI) extraction and visualization
-- Automatic output generation and organized project structure
-- Modular OpenCV-based image processing pipeline
+- Video processing with frame-by-frame analysis
+- Real-time webcam integration and image capture
+- Processed video generation and automatic output saving
+- Modular OpenCV-based computer vision pipeline
+- Well-organized project structure for code and outputs
 
 ## Project Status
 
-🚧 In Progress (Day 3/21)
+🚧 In Progress (Day 4/21)
 
 **Completed**
 - OpenCV Fundamentals
 - Image Preprocessing
 - Image Transformations
+- Video Processing
 
 **Coming Next**
-- Video Processing
 - YOLOv8 Object Detection
 - Hugging Face Vision Models
 - AI Quality Inspection Pipeline
