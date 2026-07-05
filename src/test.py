@@ -1,3 +1,8 @@
+"""
+Test code
+
+Author: Jyotsna Mandadhi
+"""
 import cv2
 image = cv2.imread(r"F:\INNOMATICS\ML\Open_Cv\AI-Visual-Quality-Inspector\data\raw\sample.jfif")
 if image is None:

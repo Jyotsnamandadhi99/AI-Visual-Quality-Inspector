@@ -1,3 +1,9 @@
+"""
+Processed video generation and automatic output saving
+
+Author: Jyotsna Mandadhi
+"""
+
 import cv2
 
 video_path = r"F:\INNOMATICS\ML\Open_Cv\AI-Visual-Quality-Inspector\data\raw\sample.mp4"

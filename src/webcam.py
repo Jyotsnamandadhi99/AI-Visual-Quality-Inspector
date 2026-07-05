@@ -1,3 +1,8 @@
+"""
+Real-time webcam integration and image capture
+
+Author: Jyotsna Mandadhi
+"""
 import cv2
 
 cap = cv2.VideoCapture(0)

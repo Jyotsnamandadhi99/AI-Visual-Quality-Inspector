@@ -1,0 +1,27 @@
+YOLO Detection Report
+========================================
+
+Image Name : sample4.jpg
+
+Confidence Threshold : 0.5
+
+Detected Objects
+-------------------------
+sheep : 0.88
+elephant : 0.83
+sheep : 0.82
+sheep : 0.81
+giraffe : 0.79
+horse : 0.78
+zebra : 0.77
+sheep : 0.75
+cow : 0.61
+
+Object Count
+-------------------------
+sheep : 4
+elephant : 1
+giraffe : 1
+horse : 1
+zebra : 1
+cow : 1

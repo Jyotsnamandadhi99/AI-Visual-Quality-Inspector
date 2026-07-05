@@ -17,7 +17,7 @@ An AI-powered visual quality inspection system that combines **OpenCV**, **YOLO*
 - Python
 - OpenCV
 - Hugging Face Transformers
-- YOLOv8
+- Ultralytics YOLOv8
 - Streamlit
 - NumPy
 - Pandas
@@ -76,16 +76,16 @@ Streamlit Web Application
 
 ## Project Status
 
-🚧 In Progress (Day 4/21)
+🚧 In Progress (Day 5/21)
 
 **Completed**
 - OpenCV Fundamentals
 - Image Preprocessing
 - Image Transformations
 - Video Processing
+- YOLOv8 Object Detection
 
 **Coming Next**
-- YOLOv8 Object Detection
 - Hugging Face Vision Models
 - AI Quality Inspection Pipeline
 - Streamlit Web Application

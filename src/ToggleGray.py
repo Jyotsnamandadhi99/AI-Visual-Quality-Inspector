@@ -1,3 +1,9 @@
+"""
+Toggle between color and gray images
+
+Author: Jyotsna Mandadhi
+"""
+
 import cv2
 
 video_path = r"F:\INNOMATICS\ML\Open_Cv\AI-Visual-Quality-Inspector\data\raw\sample.mp4"
