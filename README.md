@@ -76,14 +76,14 @@ Streamlit Web Application
 
 ## Project Status
 
-🚧 In Progress (Day 5/21)
+🚧 In Progress (Day 6/21)
 
 **Completed**
 - OpenCV Fundamentals
 - Image Preprocessing
 - Image Transformations
 - Video Processing
-- YOLOv8 Object Detection
+- YOLOv8 Object Detection using Opencv
 
 **Coming Next**
 - Hugging Face Vision Models
