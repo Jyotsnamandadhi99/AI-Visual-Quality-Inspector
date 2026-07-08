@@ -76,7 +76,7 @@ Streamlit Web Application
 
 ## Project Status
 
-🚧 In Progress (Day 6/21)
+🚧 In Progress (Day 7/21)
 
 **Completed**
 - OpenCV Fundamentals
