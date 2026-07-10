@@ -1,0 +1,31 @@
+============================================================
+AI VISUAL ANALYSIS REPORT
+============================================================
+
+Date & Time : 2026-07-10 12:58:58.450039
+
+Image : sample3.jpg
+
+Detected Objects
+----------------------------------------
+1. cat             0.82
+
+Total Objects : 1
+
+Unique Objects
+----------------------------------------
+cat
+
+Most Confident Detection
+----------------------------------------
+cat (0.82)
+
+Image Caption
+----------------------------------------
+Two kittens are sitting on a log.
+
+Summary
+----------------------------------------
+YOLO detected 1 object(s).
+BLIP described the image as:
+"Two kittens are sitting on a log."

@@ -71,14 +71,15 @@ Streamlit Web Application
 - Video processing with frame-by-frame analysis
 - Real-time webcam integration and image capture
 - Custom object detection using YOLOv8 and OpenCV
-- Object counting and confidence threshold filtering
-- AI-powered image caption generation using Hugging Face BLIP
-- Automatic generation of detection images and caption reports
-- Well-organized project structure for code, outputs, and documentation
+- Object counting with confidence threshold filtering
+- AI-powered image captioning using Hugging Face BLIP
+- Integrated visual analysis pipeline combining YOLOv8 and BLIP
+- Automatic generation of detection images and AI analysis reports
+- Well-structured project organization with documented outputs
 
 ## Project Status
 
-In Progress (Day 8/21)
+In Progress (Day 9/21)
 
 ### Completed
 
@@ -100,10 +101,9 @@ In Progress (Day 8/21)
 #### Hugging Face Integration
 - BLIP Image Captioning
 - Caption Report Generation
+- Combine YOLO + BLIP into a Single AI Pipeline
 
 ### Coming Next
-
-- Combine YOLO + BLIP into a Single AI Pipeline
 - AI Visual Quality Inspection
 - Streamlit Web Application
 - Final Project Optimization & Deployment
