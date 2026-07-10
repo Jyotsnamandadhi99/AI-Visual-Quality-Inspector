@@ -70,25 +70,43 @@ Streamlit Web Application
 - Region of Interest (ROI) extraction and visualization
 - Video processing with frame-by-frame analysis
 - Real-time webcam integration and image capture
-- Processed video generation and automatic output saving
-- Modular OpenCV-based computer vision pipeline
-- Well-organized project structure for code and outputs
+- Custom object detection using YOLOv8 and OpenCV
+- Object counting and confidence threshold filtering
+- AI-powered image caption generation using Hugging Face BLIP
+- Automatic generation of detection images and caption reports
+- Well-organized project structure for code, outputs, and documentation
 
 ## Project Status
 
-🚧 In Progress (Day 7/21)
+In Progress (Day 8/21)
 
-**Completed**
-- OpenCV Fundamentals
+### Completed
+
+#### OpenCV Fundamentals
 - Image Preprocessing
 - Image Transformations
+- ROI Operations
 - Video Processing
-- YOLOv8 Object Detection using Opencv
+- Webcam Integration
 
-**Coming Next**
-- Hugging Face Vision Models
-- AI Quality Inspection Pipeline
+#### YOLOv8 Integration
+- Image Object Detection
+- Video Object Detection
+- Custom Bounding Box Visualization
+- Confidence Threshold Filtering
+- Object Counting
+- Detection Report Generation
+
+#### Hugging Face Integration
+- BLIP Image Captioning
+- Caption Report Generation
+
+### Coming Next
+
+- Combine YOLO + BLIP into a Single AI Pipeline
+- AI Visual Quality Inspection
 - Streamlit Web Application
+- Final Project Optimization & Deployment
 
 ## Author
 
