@@ -1,0 +1,12 @@
+bottle/
+	ground_truth/
+		broken_large/ 000_mask-019_mask (20 images)
+		broken_small/ 000_mask-021_mask (22 images)
+		contamination/ 000_mask-020_mask (21 images)
+	test/
+		broken_large/ 000-019 (20 images)
+		broken_small/ 000-021 (22 images)
+		contamination/ 000-020 (21 images)
+		good/ 000-019 (20 images)
+	train/
+		good/ 000-208 (209 images)

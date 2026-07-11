@@ -1,0 +1,17 @@
+MVTec Bottle Dataset Summary
+==================================================
+
+Total Images : 292
+Training Images : 209
+Testing Images : 83
+
+Good Images : 229
+Defective Images : 63
+
+Defective Percentage : 21.58%
+
+Defect Categories
+---------------------------
+Broken Large
+Broken Small
+Contamination
