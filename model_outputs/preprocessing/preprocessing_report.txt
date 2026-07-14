@@ -1,0 +1,28 @@
+============================================================
+Bottle Dataset Preprocessing Report
+============================================================
+
+Dataset : MVTec AD Bottle
+
+Training Images : 209
+Successfully Processed : 209
+
+Image Size : 256 x 256
+
+Preprocessing Steps
+------------------------------
+ Resize
+ RGB Conversion
+ Gaussian Blur
+ Histogram Equalization
+ Normalization
+
+Generated Outputs
+------------------------------
+ Processed Images
+ Image Statistics CSV
+ Sample Comparison Image
+ Sample Histogram
+ Original & Processed Samples
+
+Status : Completed Successfully
