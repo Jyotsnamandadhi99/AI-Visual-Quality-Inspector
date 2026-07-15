@@ -1,27 +1,27 @@
 # AI Visual Quality Inspector
 
-An end-to-end Industrial AI Quality Inspection System that combines **OpenCV**, **Deep Learning**, **Industrial Anomaly Detection**, and **Hugging Face Vision-Language Models** to automatically inspect products, localize defects, generate anomaly heatmaps, and create intelligent quality inspection reports.
+An end-to-end **Industrial AI Visual Quality Inspection System** that combines **OpenCV**, **PyTorch**, **YOLOv8**, **Industrial Anomaly Detection**, and **Hugging Face Vision-Language Models** to automatically inspect products, localize defects, generate anomaly heatmaps, and produce intelligent quality inspection reports.
 
 ---
 
 ## Project Overview
 
-This project is being built from scratch to simulate a real-world industrial visual inspection system.
+This project simulates a real-world industrial quality inspection system used in manufacturing.
 
-The application learns the appearance of **normal products** using the **MVTec AD Bottle Dataset** and detects manufacturing defects such as:
+The system learns the appearance of **normal bottles** using the **MVTec AD Bottle Dataset** and identifies manufacturing defects such as:
 
 - Broken Large
 - Broken Small
 - Contamination
 
-The final system will automatically inspect products and generate an AI-powered inspection report.
+The final application will automatically classify products as **PASS** or **FAIL**, localize defects, generate AI-powered inspection reports, and provide an interactive Streamlit dashboard.
 
 ---
 
 ## Key Features
 
-### OpenCV Pipeline
-- Image preprocessing
+### Computer Vision
+- Image preprocessing using OpenCV
 - Image enhancement
 - ROI extraction
 - Video processing
@@ -35,20 +35,22 @@ The final system will automatically inspect products and generate an AI-powered 
 
 ### Vision-Language AI
 - Hugging Face BLIP image captioning
-- Scene understanding
-- AI-generated inspection summaries
+- AI-generated image descriptions
+- Natural language inspection summaries
 
-### Industrial Anomaly Detection *(In Progress)*
+### Industrial AI (Current Phase)
 - MVTec AD Bottle Dataset
-- Defect localization
-- Anomaly heatmap generation
-- PASS / FAIL quality inspection
-- AI quality report generation
+- Custom PyTorch Dataset
+- Custom DataLoader Pipeline
+- Dataset exploration & preprocessing
+- Industrial anomaly detection pipeline *(Upcoming)*
+- Defect localization *(Upcoming)*
+- Heatmap generation *(Upcoming)*
+- PASS / FAIL inspection *(Upcoming)*
 
 ### Deployment *(Upcoming)*
-- Streamlit Web Application
-- Interactive Dashboard
-- Report Download
+- Streamlit Dashboard
+- AI Inspection Report Download
 
 ---
 
@@ -60,31 +62,36 @@ The final system will automatically inspect products and generate an AI-powered 
 - Pandas
 - Matplotlib
 - PyTorch
+- TorchVision
 - Ultralytics YOLOv8
 - Hugging Face Transformers
-- Anomalib *(Upcoming)*
-- Streamlit *(Upcoming)*
+- Anomalib
+- Streamlit
 
 ---
 
 ## Dataset
 
-### MVTec AD - Bottle Category
+### MVTec AD – Bottle
 
-Training Images
+### Training Set
 
-- Good Bottles : **209**
+| Category | Images |
+|----------|-------:|
+| Good | 209 |
 
-Testing Images
+### Testing Set
 
-- Good : **20**
-- Broken Large : **20**
-- Broken Small : **22**
-- Contamination : **21**
+| Category | Images |
+|----------|-------:|
+| Good | 20 |
+| Broken Large | 20 |
+| Broken Small | 22 |
+| Contamination | 21 |
 
-Ground Truth
+### Ground Truth
 
-- Pixel-level segmentation masks for all defective images
+Pixel-level segmentation masks are provided for all defective images.
 
 ---
 
@@ -103,6 +110,7 @@ AI-Visual-Quality-Inspector/
 │── model_src/
 │   ├── dataset_analysis.py
 │   ├── preprocessing.py
+│   ├── dataset_loader.py
 │   ├── train.py
 │   ├── inference.py
 │   └── inspection_engine.py
@@ -115,13 +123,9 @@ AI-Visual-Quality-Inspector/
 │   └── heatmaps/
 │
 │── models/
-│
 │── outputs/
-│
 │── screenshots/
-│
 │── src/
-│
 │── requirements.txt
 │
 └── README.md
@@ -138,13 +142,19 @@ Bottle Image
 OpenCV Preprocessing
       │
       ▼
+Custom PyTorch Dataset
+      │
+      ▼
+PyTorch DataLoader
+      │
+      ▼
 Industrial Anomaly Detection
       │
       ▼
 Anomaly Score
       │
       ▼
-Defect Heatmap
+Heatmap Generation
       │
       ▼
 PASS / FAIL Decision
@@ -163,29 +173,40 @@ Streamlit Dashboard
 
 ## Current Progress
 
-### Phase 1 — Computer Vision Fundamentals ✅
+### ✅ Phase 1 — Computer Vision
 
-- Image Processing
+- Image Preprocessing
 - Image Transformations
 - ROI Operations
 - Video Processing
 - Webcam Integration
 
-### Phase 2 — Deep Learning ✅
+### ✅ Phase 2 — Deep Learning
 
 - YOLOv8 Object Detection
 - Custom Detection Pipeline
 - Object Counting
-- Confidence Filtering
-- Hugging Face BLIP Captioning
-- AI Visual Analysis
+- Confidence Threshold Filtering
+- Hugging Face BLIP Image Captioning
+- AI Visual Analysis Pipeline
 
-### Phase 3 — Industrial AI *(Current Phase)*
+### 🚧 Phase 3 — Industrial AI
+
+Completed
 
 - Dataset Exploration
 - Dataset Analysis
-- Data Preprocessing
-- Industrial Anomaly Detection *(Upcoming)*
+- Image Preprocessing Pipeline
+- Custom PyTorch Dataset
+- Custom PyTorch DataLoader
+
+Upcoming
+
+- PatchCore Training
+- Heatmap Generation
+- Defect Localization
+- Inspection Engine
+- AI Report Generation
 
 ---
 
@@ -194,9 +215,12 @@ Streamlit Dashboard
 - ✅ OpenCV Fundamentals
 - ✅ YOLOv8 Integration
 - ✅ Hugging Face BLIP
-- ✅ AI Visual Analysis Pipeline
-- 🔄 Industrial Anomaly Detection
-- ⏳ Model Training
+- ✅ AI Visual Analysis
+- ✅ Dataset Analysis
+- ✅ Image Preprocessing
+- ✅ Custom PyTorch Dataset
+- ✅ Custom DataLoader
+- 🔄 PatchCore Training
 - ⏳ Heatmap Generation
 - ⏳ AI Inspection Engine
 - ⏳ Streamlit Dashboard
@@ -206,9 +230,9 @@ Streamlit Dashboard
 
 ## Project Status
 
-**Current Stage:** Day 11 / 20
+**Current Stage:** Day 12 / 20
 
-**Status:** 🚧 Under Active Development
+**Status:** 🚧 Industrial AI Pipeline Development
 
 ---
 
@@ -217,5 +241,3 @@ Streamlit Dashboard
 **Jyotsna Mandadhi**
 
 Computer Science Engineering Student
-
-AI • Computer Vision • Deep Learning
